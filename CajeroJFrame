@@ -128,8 +128,9 @@ try {
             break;
 
         default:
-            this.dispose();
-            break;
+            JOptionPane.showMessageDialog(null,"Cerrando sesión, vuelva pronto...","Aviso",JOptionPane.INFORMATION_MESSAGE);
+this.dispose();
+
     }
 
 } catch (Exception e) {
